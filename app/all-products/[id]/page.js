@@ -10,7 +10,7 @@ export default async function ProductPage({ params }) {
     <Box sx={{ pb: 8, pt: 4 }}>
       <Container maxWidth="xl">
         <Typography variant="h4" fontWeight="bold" mb={4} textAlign="center" color="#22223B">
-          Product ID : {id}
+          {selectedProduct.title}
         </Typography>
         <ProductDetails product={selectedProduct} />
       </Container>
